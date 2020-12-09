@@ -1,0 +1,23 @@
+{
+  "name": "bluefox-api",
+  "version": "0.0.1",
+  "description": "Module to easily access the Bluefox API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperS123/bluefox-api.git"
+  },
+  "keywords": [
+    "bluefox",
+    "api"
+  ],
+  "author": ["Shiv", "FlaringPhoenix"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperS123/bluefox-api/issues"
+  },
+  "homepage": "https://github.com/SuperS123/bluefox-api#readme"
+}
