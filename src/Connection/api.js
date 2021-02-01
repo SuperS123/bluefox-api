@@ -14,7 +14,7 @@ class API {
       headers: {
         "Authorization": "Bearer " + this.key
       }
-    }).then((response) => response.json());
+    }).then((response) => response.text());
 
     return json;
   }
