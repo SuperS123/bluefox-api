@@ -19,7 +19,7 @@ class CryptoAPI {
     return json;
   }
 
-  async getCurrenyData(symbol) {
+  async getCurrencyData(symbol) {
     const url = new URL(`https://crypto.bluefoxhost.com/v1/coin/${symbol}`);
 
     const json = await fetch(url.toString(), {
