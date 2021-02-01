@@ -12,11 +12,25 @@ npm install bluefox-api
 
 ## Usage
 
+### Main API
+
 ```javascript
 const Bluefox = require('bluefox-api');
-const API = new Bluefox.API("API KEY");
+const api = new Bluefox.API("API KEY");
 
-//TODO: Add stuff.
+api.status().then(res => {
+  console.log(res);
+});
+```
+
+### Crypto API
+```javascript
+const Bluefox = require('bluefox-api);
+const cryptoApi = new Bluefox.CryptoAPI("API KEY");
+
+crpytoApi.getCurrencies().then(res => {
+  console.log(res);
+});
 ```
 
 ## Contributing
