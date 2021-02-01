@@ -20,7 +20,7 @@ npm install bluefox-api
 const Bluefox = require('bluefox-api');
 const api = new Bluefox.API("API KEY");
 
-api.status().then(res => {
+api.getStatus().then(res => {
   console.log(res);
 }).catch(err => {
   throw err;
