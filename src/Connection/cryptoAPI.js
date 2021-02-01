@@ -8,7 +8,7 @@ class CryptoAPI {
   }
 
   async getCurrencies() {
-    const url = new URL(`https://api.bluefoxhost.com/v1/coins`);
+    const url = new URL(`https://crypto.bluefoxhost.com/v1/coins`);
 
     const json = await fetch(url.toString(), {
       headers: {
@@ -20,7 +20,7 @@ class CryptoAPI {
   }
 
   async getCurrenyData(symbol) {
-    const url = new URL(`https://api.bluefoxhost.com/v1/coin/${symbol}`);
+    const url = new URL(`https://crypto.bluefoxhost.com/v1/coin/${symbol}`);
 
     const json = await fetch(url.toString(), {
       headers: {
