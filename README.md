@@ -20,6 +20,8 @@ const api = new Bluefox.API("API KEY");
 
 api.status().then(res => {
   console.log(res);
+}).catch(err => {
+  throw err;
 });
 ```
 
@@ -30,6 +32,8 @@ const cryptoApi = new Bluefox.CryptoAPI("API KEY");
 
 crpytoApi.getCurrencies().then(res => {
   console.log(res);
+}).catch(err => {
+  throw err;
 });
 ```
 
