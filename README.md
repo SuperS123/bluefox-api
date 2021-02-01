@@ -27,6 +27,8 @@ api.status().then(res => {
 });
 ```
 
+Find all functions [here](https://github.com/SuperS123/bluefox-api/blob/main/FUNCTIONS.md#main-api)
+
 ### Crypto API
 ```javascript
 const Bluefox = require('bluefox-api);
@@ -38,6 +40,8 @@ crpytoApi.getCurrencies().then(res => {
   throw err;
 });
 ```
+
+Find all functions [here](https://github.com/SuperS123/bluefox-api/blob/main/FUNCTIONS.md#crypto-api)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
