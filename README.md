@@ -1,8 +1,10 @@
-# Bluefox-API
+# Bluefox API
 
 ![NPM Info](https://nodei.co/npm/bluefox-api.png?downloads=true&stars=true)
 
 Bluefox-API is a [npm](https://npmjs.org/) library to access the Bluefox-API easily.
+
+**This is not the BlueFox API, this is only a wrapper.
 
 ## Installation
 
