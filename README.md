@@ -4,7 +4,7 @@
 
 Bluefox-API is a [npm](https://npmjs.org/) library to access the Bluefox-API easily.
 
-**This is not the BlueFox API, this is only a wrapper.
+**This is not the BlueFox API, this is only a wrapper.**
 
 ## Installation
 
